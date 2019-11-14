@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="MasterDetailPageNavigation.CategoryCompaniesPage"
+		Title="Companies">
+	<ContentPage.Content>
+		<ListView x:Name="DataList_categorycompanies" BackgroundColor="White" SeparatorVisibility="None" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" RowHeight="80" CachingStrategy="RecycleElement">
+				<ListView.ItemTemplate>
+					<DataTemplate>
+						<ViewCell>
+							<Grid Padding="5,5,5,0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+								<Grid.RowDefinitions>
+									<RowDefinition Height="2*"></RowDefinition>
+									<RowDefinition Height="2*"></RowDefinition>
+								</Grid.RowDefinitions>
+								<Grid.ColumnDefinitions>
+									<ColumnDefinition Width="1*"></ColumnDefinition>
+									<ColumnDefinition Width="2*"></ColumnDefinition>
+								</Grid.ColumnDefinitions>
+								<Image Grid.Row="0" Grid.RowSpan="2" Grid.Column="0" Source="{Binding companylogo}" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="65" WidthRequest="65"/>
+								<Label Grid.Row="0" Grid.Column="1" Text="{Binding companyname}" FontSize="14" FontAttributes="Bold" TextColor="#000000" HorizontalTextAlignment="Start" VerticalTextAlignment="End"/>
+								<Label Grid.Row="1" Grid.Column="1" Text="{Binding details}" FontSize="13" TextColor="#000000" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"/>
+							</Grid>
+						</ViewCell>
+					</DataTemplate>
+				</ListView.ItemTemplate>
+			</ListView>
+	</ContentPage.Content>
+</ContentPage>

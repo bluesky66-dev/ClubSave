@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="MasterDetailPageNavigation.SavingsCategoriesPage"
+		Title="Categories">
+	<ContentPage.Content>
+		<StackLayout BackgroundColor="White">
+			<ActivityIndicator x:Name="category_indicator" Color="Black" IsRunning="false" IsVisible="false" HorizontalOptions="Center" VerticalOptions="Center"/>
+			<ListView x:Name="DataList_category" BackgroundColor="White" SeparatorVisibility="None" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" CachingStrategy="RecycleElement">
+				<ListView.ItemTemplate>
+					<DataTemplate>
+						<ViewCell>
+							<Label Margin="20,0,0,0" Text="{Binding categoryname}" FontSize="16" TextColor="#000000" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"/>
+						</ViewCell>
+					</DataTemplate>
+				</ListView.ItemTemplate>
+			</ListView>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

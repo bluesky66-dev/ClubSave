@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+		xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="MasterDetailPageNavigation.TutorialPage"
+		Title="Tutorial">
+	<ContentPage.Content>
+		<Grid BackgroundColor="#1081cc" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="1*"></RowDefinition>
+				<RowDefinition Height="1*"></RowDefinition>
+				<RowDefinition Height="1*"></RowDefinition>
+				<RowDefinition Height="1*"></RowDefinition>
+				<RowDefinition Height="1*"></RowDefinition>
+				<RowDefinition Height="1*"></RowDefinition>
+				<RowDefinition Height="1*"></RowDefinition>
+				<RowDefinition Height="1*"></RowDefinition>
+				<RowDefinition Height="1*"></RowDefinition>
+			</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="1*"></ColumnDefinition>
+				<ColumnDefinition Width="1*"></ColumnDefinition>
+				<ColumnDefinition Width="10*"></ColumnDefinition>
+				<ColumnDefinition Width="1*"></ColumnDefinition>
+			</Grid.ColumnDefinitions>
+			
+			<Image Grid.Row="1" Grid.Column="1" x:Name="first_pic" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" HeightRequest="20" WidthRequest="20"/>
+			<Label Grid.Row="1" Grid.Column="2" x:Name="first_text" TextColor="White" FontSize="13" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand"/>
+			<Image Grid.Row="2" Grid.Column="1" x:Name="second_pic" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" HeightRequest="20" WidthRequest="20"/>
+			<Label Grid.Row="2" Grid.Column="2" x:Name="second_text" TextColor="White" FontSize="13" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand"/>
+			<Image Grid.Row="3" Grid.Column="1" x:Name="third_pic" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" HeightRequest="20" WidthRequest="20"/>
+			<Label Grid.Row="3" Grid.Column="2" x:Name="third_text" TextColor="White" FontSize="13" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand"/>
+			<Image Grid.Row="4" Grid.Column="1" x:Name="fourth_pic" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" HeightRequest="20" WidthRequest="20"/>
+			<Label Grid.Row="4" Grid.Column="2" x:Name="fourth_text" TextColor="White" FontSize="13" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand"/>
+			<Image Grid.Row="5" Grid.Column="1" x:Name="fifth_pic" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" HeightRequest="20" WidthRequest="20"/>
+			<Label Grid.Row="5" Grid.Column="2" x:Name="fifth_text" TextColor="White" FontSize="13" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand"/>
+			<Image Grid.Row="6" Grid.Column="1" x:Name="sixth_pic" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" HeightRequest="20" WidthRequest="20"/>
+			<Label Grid.Row="6" Grid.Column="2" x:Name="sixth_text" TextColor="White" FontSize="13" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand"/>
+			<Label Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="2" x:Name="seventh_text" TextColor="White" FontSize="13" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand"/>
+		</Grid>
+	</ContentPage.Content>
+</ContentPage>

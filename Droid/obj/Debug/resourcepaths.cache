@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <AdditionalAndroidResourcePaths>
+    <AdditionalAndroidResourcePath>/Users/kjs/.local/share/Xamarin/Xamarin.GooglePlayServices.Base/8.4.0/embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>/Users/kjs/.local/share/Xamarin/Xamarin.GooglePlayServices.Basement/8.4.0/embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>/Users/kjs/.local/share/Xamarin/Xamarin.GooglePlayServices.Maps/8.4.0/embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>/Users/kjs/.local/share/Xamarin/Xamarin.GooglePlayServices.Location/8.4.0/embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>/Users/kjs/.local/share/Xamarin/Xamarin.GooglePlayServices.Measurement/8.4.0/embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>/Users/kjs/.local/share/Xamarin/Xamarin.GooglePlayServices.Gcm/8.4.0/embedded</AdditionalAndroidResourcePath>
+    <AdditionalAndroidResourcePath>/Users/kjs/.local/share/Xamarin/Xamarin.GooglePlayServices.Analytics/8.4.0/embedded</AdditionalAndroidResourcePath>
+  </AdditionalAndroidResourcePaths>
+  <AdditionalJavaLibraryReferences>
+    <AdditionalJavaLibraryReference>/Users/kjs/.local/share/Xamarin/Xamarin.GooglePlayServices.Base/8.4.0/embedded/classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/kjs/.local/share/Xamarin/Xamarin.GooglePlayServices.Basement/8.4.0/embedded/classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/kjs/.local/share/Xamarin/Xamarin.GooglePlayServices.Maps/8.4.0/embedded/classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/kjs/.local/share/Xamarin/Xamarin.GooglePlayServices.Location/8.4.0/embedded/classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/kjs/.local/share/Xamarin/Xamarin.GooglePlayServices.Measurement/8.4.0/embedded/classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/kjs/.local/share/Xamarin/Xamarin.GooglePlayServices.Gcm/8.4.0/embedded/classes.jar</AdditionalJavaLibraryReference>
+    <AdditionalJavaLibraryReference>/Users/kjs/.local/share/Xamarin/Xamarin.GooglePlayServices.Analytics/8.4.0/embedded/classes.jar</AdditionalJavaLibraryReference>
+  </AdditionalJavaLibraryReferences>
+  <AdditionalNativeLibraryReferences />
+</Paths>

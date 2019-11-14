@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		xmlns:local="clr-namespace:MasterDetailPageNavigation;assembly=MasterDetailPageNavigation" 
+		xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+		x:Class="MasterDetailPageNavigation.CompanyDetailsPage"
+		Title="Company Detail">
+	<ContentPage.Content>
+		<ScrollView>
+			<StackLayout BackgroundColor="White" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+				<StackLayout>
+					<Image x:Name="profile_pic_bind" 
+							HorizontalOptions="Center" 
+							VerticalOptions="Center" 
+							HeightRequest="130" 
+							WidthRequest="130"/>
+				</StackLayout>
+				<StackLayout>
+					<Label x:Name="companyname" 
+						Text="Title" 
+						TextColor="#000000" 
+						FontSize="19" 
+						FontAttributes="Bold" 
+						HorizontalOptions="CenterAndExpand" 
+						VerticalOptions="CenterAndExpand"
+						Margin="20,0,20,0"/>
+				</StackLayout>
+				<StackLayout>
+					<Label 
+							x:Name="details" 
+							TextColor="Black"
+							BackgroundColor="#F2F2F2" 
+							HorizontalOptions="FillAndExpand" 
+							VerticalOptions="FillAndExpand" 
+							Margin="20,10,20,0"/>
+				</StackLayout>
+				<StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Margin="20,0,20,0">
+					<Button Clicked="phone_click"
+							TextColor="White" 
+							Text="Phone" 
+							BackgroundColor="#1081cc"  
+							HorizontalOptions="FillAndExpand" 
+							VerticalOptions="Center"  
+							HeightRequest="40" 
+							WidthRequest="120"
+							BorderRadius="10"/>
+					<Button Clicked="email_click"
+							TextColor="White" 
+							Text="Email" 
+							BackgroundColor="#1081cc"  
+							HorizontalOptions="FillAndExpand" 
+							VerticalOptions="Center"  
+							HeightRequest="40" 
+							WidthRequest="120"
+							BorderRadius="10"/>
+				</StackLayout>
+				<StackLayout>
+					<maps:Map 
+						HorizontalOptions="FillAndExpand" 
+						VerticalOptions="FillAndExpand" 
+						x:Name="MyMap" 
+						IsShowingUser="true" 
+						MapType="Street" 
+						Margin="20,10,20,0"
+						HeightRequest="200"/>
+				</StackLayout>
+				<StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="0,10,0,0">
+					<StackLayout>
+						<Label Text="notifications status" 
+							TextColor="Black" 
+							FontSize="14" 
+							FontAttributes="Italic" 
+							HorizontalOptions="End" 
+							VerticalOptions="End"/>
+					</StackLayout>
+					<StackLayout>
+						<Switch x:Name="notification" 
+							HorizontalOptions="Center" 
+							VerticalOptions="Center"/>
+					</StackLayout>
+				</StackLayout>
+				<StackLayout Orientation="Horizontal" BackgroundColor="#2e2e2e" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="60">
+					<StackLayout HorizontalOptions="CenterAndExpand" Margin="0,15,0,15">
+						<Label Text="Save" 
+								TextColor="White" 
+								FontSize="11"  
+								FontAttributes="Bold" 
+								HorizontalOptions="CenterAndExpand" 
+								HeightRequest="12"/>
+						<Label x:Name="savings" 
+								Text="5 %" 
+								TextColor="#1081cc" 
+								FontSize="14" 
+								HorizontalOptions="CenterAndExpand"
+								VerticalOptions="Start"
+								HeightRequest="15"/>
+					</StackLayout>
+					<StackLayout HorizontalOptions="CenterAndExpand" Margin="0,10,0,10">
+						<Button Clicked="viewonweb_button"
+							TextColor="White" 
+							Text="View on Web" 
+							BackgroundColor="#1081cc"  
+							HorizontalOptions="FillAndExpand" 
+							VerticalOptions="Center"  
+							HeightRequest="40" 
+							WidthRequest="120"
+							BorderRadius="10"/>
+						</StackLayout>
+				</StackLayout>
+			</StackLayout>
+		</ScrollView>
+			
+	</ContentPage.Content>
+</ContentPage>

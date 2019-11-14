@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+			 x:Class="MasterDetailPageNavigation.MasterPage"
+			 Padding="0,0,0,0"
+			 Icon="hamburger.png"
+			 xmlns:artina="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared"
+			 xmlns:commonViews="clr-namespace:UXDivers.Artina.Grial;assembly=UXDivers.Artina.Grial"
+	 		 xmlns:views="clr-namespace:UXDivers.Artina.Grial;assembly=UXDivers.Artina.Grial"
+			 Title="Personal Organiser">
+	<ContentPage.Content>
+		<Grid VerticalOptions="FillAndExpand" BackgroundColor="#283442">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="100" />
+				<RowDefinition Height="*" />
+			</Grid.RowDefinitions>
+
+			<Grid
+				Grid.Row="0"
+				HorizontalOptions="Center" 
+				VerticalOptions="End">
+				<Image Source="star.png" HeightRequest="70" WidthRequest="70"/> 
+			</Grid>
+			<ListView 
+					Grid.Row="1" 
+					x:Name="listView" 
+					VerticalOptions="FillAndExpand" 
+					SeparatorVisibility="None" 
+					BackgroundColor="#283442"
+					Style="{ DynamicResource MainMenuListViewStyle }">
+				<ListView.ItemTemplate>
+					<DataTemplate>
+						<ImageCell Text="{Binding Title}" ImageSource="{Binding IconSource}" TextColor="White" />
+					</DataTemplate>
+				</ListView.ItemTemplate>
+			</ListView>
+		</Grid>
+	</ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		xmlns:local="clr-namespace:MasterDetailPageNavigation;assembly=MasterDetailPageNavigation"
+		x:Class="MasterDetailPageNavigation.LoginPage"
+		BackgroundColor="#ff0000"
+		BackgroundImage="signup_bg.jpg"
+		xmlns:artina="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared"
+		xmlns:commonViews="clr-namespace:UXDivers.Artina.Grial;assembly=UXDivers.Artina.Grial">
+	<ContentPage.Content>
+		<Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Padding="20,20,20,0" RowSpacing="0" ColumnSpacing="0">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="5*"></RowDefinition>
+				<RowDefinition Height=".7*"></RowDefinition>
+				<RowDefinition Height=".3*"></RowDefinition>
+				<RowDefinition Height=".7*"></RowDefinition>
+				<RowDefinition Height="1.5*"></RowDefinition>
+				<RowDefinition Height="1*"></RowDefinition>
+				<RowDefinition Height="2*"></RowDefinition>
+			</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="1.5*"></ColumnDefinition>
+				<ColumnDefinition Width="4*"></ColumnDefinition>
+				<ColumnDefinition Width="6*"></ColumnDefinition>
+				<ColumnDefinition Width="1.5*"></ColumnDefinition>
+			</Grid.ColumnDefinitions>
+			<Image Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Source="star_login.png" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+			<Entry Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" x:Name="username_entry" Placeholder="Username" Style="{DynamicResource ArtinaLoginEntryStyle}"/>
+			<Entry Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" x:Name="password_entry" Placeholder="Password" IsPassword="true" Style="{DynamicResource ArtinaLoginEntryStyle}"/>	
+			<Button Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" Text="LogIn" TextColor="White" BackgroundColor="#f7ab00" FontSize="18" FontAttributes="Bold" VerticalOptions="CenterAndExpand" Clicked="OnButtonClicked" BorderColor="Black" BorderRadius="20"/>
+			<Label Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="4" TextColor="White" Text="Only members can access the app, please purchase your membership card today for exculsive savings." FontSize="15" VerticalOptions="Center" HorizontalOptions="Center"/>
+			<ActivityIndicator Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="4" x:Name="indicator" Color="White" IsRunning="false" HorizontalOptions="Center" VerticalOptions="Center"/>
+		</Grid>
+	</ContentPage.Content>
+</ContentPage>

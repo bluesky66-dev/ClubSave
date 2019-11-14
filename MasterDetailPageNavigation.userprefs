@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{94BA3405-8AC9-47A8-90B4-59DBF2D56EF0}|Default">
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Program_folder/xamarinProjects/ClubSave_XForms/MasterDetailPageNavigation/Dependency/IFileSystem.cs" line="8" column="11" />
+      <Breakpoint file="/Program_folder/xamarinProjects/ClubSave_XForms/MasterDetailPageNavigation/Dependency/IFileSystem.cs" line="6" column="1" />
+      <Breakpoint file="/ProgramDevelopment/Xamarin Project/ClubSave_XForms/MasterDetailPageNavigation/App.cs" line="31" column="1" />
+      <Breakpoint file="/ProgramDevelopment/Xamarin Project/ClubSave_XForms/MasterDetailPageNavigation/App.cs" line="33" column="1" />
+      <Breakpoint file="/ProgramDevelopment/Xamarin Project/ClubSave_XForms/MasterDetailPageNavigation/App.cs" line="36" column="1" />
+      <Breakpoint file="/ProgramDevelopment/Xamarin Project/ClubSave_XForms/MasterDetailPageNavigation/Pages/LatestDealsPage.xaml.cs" line="29" column="1" />
+      <Breakpoint file="/ProgramDevelopment/Xamarin Project/ClubSave_XForms/MasterDetailPageNavigation/Pages/LatestDealsPage.xaml.cs" line="30" column="1" />
+      <Breakpoint file="/ProgramDevelopment/Xamarin Project/ClubSave_XForms/MasterDetailPageNavigation/Pages/LatestDealsPage.xaml.cs" line="32" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.MasterDetailPageNavigation.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.0c254cef12992243e6403d82f9ab07d40174217a" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="MasterDetailPageNavigation/Pages/UserPorfilePage.xaml.cs" line="38" offsetX="667" offsetY="555" expression="user_url" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.ItemProperties.MasterDetailPageNavigation.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+</Properties>
